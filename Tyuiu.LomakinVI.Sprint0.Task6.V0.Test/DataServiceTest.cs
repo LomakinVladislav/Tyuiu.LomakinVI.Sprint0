@@ -25,7 +25,7 @@ namespace Tyuiu.LomakinVI.Sprint0.Task6.V0.Test
         [TestMethod]
         public void CheckMultiplicationArrayValid()
         {
-            var numbers = new int[] { 1, 2, 3, 4, 5};
+            var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.MultiplicationArray(numbers);
             Assert.AreEqual(120, res);
         }
